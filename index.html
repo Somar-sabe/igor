@@ -1248,6 +1248,21 @@
     }
   
 </style>
+	<script>
+  function openForm() {
+    document.getElementById('popupBg').style.display = 'flex';
+  }
+
+  function closeForm(event) {
+    document.getElementById('popupBg').style.display = 'none';
+  }
+
+  function submitForm(e) {
+    e.preventDefault();
+    alert('Form submitted!');
+    closeForm();
+  }
+</script>
 
 </body>
 
