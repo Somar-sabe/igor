@@ -12248,7 +12248,8 @@ form.comment-form {
     padding: 45px 15px 40px 15px;
   }
   .ht-plan-inner .plan-price {
-    font-size: 45px;
+    font-size: 40px;
+    margin-top: 15px;
   }
 }
 @media only screen and (max-width: 1200px) {
